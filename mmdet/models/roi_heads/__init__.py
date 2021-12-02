@@ -14,8 +14,6 @@ from .point_rend_roi_head import PointRendRoIHead
 from .roi_extractors import SingleRoIExtractor
 from .shared_heads import ResLayer
 from .standard_roi_head import StandardRoIHead
-
-from .base_head import BaseHeadG
 from .htd_roi_head import HTDRoIHead
 
 __all__ = [
