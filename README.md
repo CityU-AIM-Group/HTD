@@ -1,10 +1,16 @@
 # HTD: Heterogeneous Task Decoupling for Two-stage Object Detection
 
-## Installation
+## Environment
 
-This work is based on the mmdetection framework. Please refer to [get_started.md](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md) for installation.
+mmcv-full: 1.2.1
+mmdet: 2.7
+torch: 1.6.0
+cudatoolkit: 10.0
+
+We didn't use the compiled mmcv package, and git and compile it using the local GPU following the installation instruction.
 
 ## Get start
+This work is based on the mmdetection framework. Please refer to [get_started.md](https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md) for installation.
 Please follow the official instruction of [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and use our config files (configs/htd/...) to run the code.
 
 ## COCO test-dev evaluation
