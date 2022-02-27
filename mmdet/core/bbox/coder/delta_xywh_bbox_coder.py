@@ -94,8 +94,7 @@ def bbox2delta(proposals, gt, means=(0., 0., 0., 0.), stds=(1., 1., 1., 1.)):
             dw, dh.
     """
     assert proposals.size() == gt.size()
-    # print(proposals.size())
-    # input()
+
     proposals = proposals.float()
     gt = gt.float()
     px = (proposals[..., 0] + proposals[..., 2]) * 0.5

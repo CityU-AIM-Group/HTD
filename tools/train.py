@@ -21,8 +21,7 @@ from mmdet.utils import collect_env, get_root_logger
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
     parser.add_argument('config', default='./configs/_htd/htd_resnet50_1x.py', help='train config file path')
-    parser.add_argument('work-dir', default='../TIP/test', help='the dir to save logs and models')
-
+    parser.add_argument('--work-dir', default='../TIP/test', help='the dir to save logs and models')
     parser.add_argument(
         '--resume-from',help='the checkpoint file to resume from')
     parser.add_argument(

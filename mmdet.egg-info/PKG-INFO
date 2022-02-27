@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: mmdet
+Version: 2.7.0
+Summary: OpenMMLab Detection Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmdetection
+Author: OpenMMLab
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Description: # HTD: Heterogeneous Task Decoupling for Two-stage Object Detection
+        
+        ## Installation
+        
+        This work is based on the mmdetection framework. Please refer to [get_started.md](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md) for installation.
+        
+        ## Get start
+        Please follow the official instruction of [mmdetection](https://mmdetection.readthedocs.io/en/latest/) and use our config files (configs/htd/...) to run the code.
+        
+        ## COCO test-dev evaluation
+        
+        The submitted results for the official evaluation are based on ResNet-101-DCN ([Rank 50](https://competitions.codalab.org/competitions/20794#results))
+        ![image](https://github.com/CityU-AIM-Group/HTD/blob/main/coco.png)
+        
+        ## Well-trained models 
+        
+        
+        Well-trained models (ResNet-50, ResNet-101, ResNet-101-DCN) are available at this [onedrive link](https://portland-my.sharepoint.com/:f:/g/personal/wuyangli2-c_my_cityu_edu_hk/EhB8tbV-4e5PiAG8kNVDsXUBnNPcsUmbue53CGMM3yIuPw?e=fvsrL2)
+        
+        ## Contact
+        If you have any problems, please feel free to contact me at wuyangli2-c@my.cityu.edu.hk
+        
+        ## Abstract
+        Decoupling the sibling head has recently shown great potential in relieving the inherent task-misalignment problem in two-stage object detectors. However, existing works design similar structures for the classification and regression, ignoring task-specific characteristics and feature demands. Besides, the shared knowledge that may benefit the two branches is neglected, leading to potential excessive decoupling and semantic inconsistency. To address these two issues, we propose Heterogeneous task decoupling (HTD) framework for object detection, which utilizes a Progressive Graph (PGraph) module and a Border-aware Adaptation (BA) module for task-decoupling. Specifically, we first devise a Semantic Feature Aggregation (SFA) module to aggregate global semantics with image-level supervision, serving as the shared knowledge for the task-decoupled framework. Then, the PGraph module performs progressive graph reasoning, including local spatial aggregation and global semantic interaction, to enhance semantic representations of region proposals for classification. The proposed BA module integrates multi-level features adaptively, focusing on the low-level border activation to obtain representations with spatial and border perception for regression. Finally, we utilize the aggregated knowledge from SFA to keep the instance-level semantic consistency (ISC) of decoupled frameworks. Extensive experiments demonstrate that HTD outperforms existing detection works by a large margin, and achieves single-model 50.4%AP and 33.2% AP s on COCO test-dev set using ResNet-101-DCN backbone, which is the best entry among state-of-the-arts under the same configuration. 
+        
+        ![image](https://github.com/CityU-AIM-Group/HTD/blob/main/overall.png)
+        
+        
+        
+        
+        
+Keywords: computer vision,object detection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: build
+Provides-Extra: optional
