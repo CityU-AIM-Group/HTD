@@ -1,4 +1,4 @@
-# HTD: Heterogeneous Task Decoupling for Two-stage Object Detection
+# [HTD: Heterogeneous Task Decoupling for Two-stage Object Detection](https://ieeexplore.ieee.org/document/9615001)
 
 ## 2022/03/08/ News!
 Welcome to follow our new works [SIGMA](https://github.com/CityU-AIM-Group/SIGMA) (CVPR'22) and [SCAN](https://github.com/CityU-AIM-Group/SCAN) (AAAI'22 ORAL), which establish pixel-level graphs on the anchor-free object detector FCOS with some delicate designs.
@@ -11,7 +11,6 @@ mmdet: 2.7
 torch: 1.6.0
 cudatoolkit: 10.0
 
-We didn't use the compiled mmcv package, and git and compile it using the local GPU following the installation instruction.
 
 ## Get start
 This work is based on the mmdetection framework. Please refer to [get_started.md](https://github.com/open-mmlab/mmdetection/blob/master/docs/en/get_started.md) for installation.
