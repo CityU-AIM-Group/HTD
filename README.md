@@ -1,5 +1,9 @@
 # HTD: Heterogeneous Task Decoupling for Two-stage Object Detection
 
+## 2022/03/08/ News!
+Welcome to follow our new works [SIGMA](https://github.com/CityU-AIM-Group/SIGMA) (CVPR'22) and [SCAN](https://github.com/CityU-AIM-Group/SCAN) (AAAI'22 ORAL), which establish pixel-level graphs on the single-stage object detector FCOS with some delicate designs.
+
+
 ## Environment
 
 mmcv-full: 1.2.1
