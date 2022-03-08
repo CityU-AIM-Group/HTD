@@ -26,6 +26,23 @@ The submitted results for the official evaluation are based on ResNet-101-DCN ([
 
 Well-trained models (ResNet-50, ResNet-101, ResNet-101-DCN) are available at this [onedrive link](https://portland-my.sharepoint.com/:f:/g/personal/wuyangli2-c_my_cityu_edu_hk/EhB8tbV-4e5PiAG8kNVDsXUBnNPcsUmbue53CGMM3yIuPw?e=fvsrL2)
 
+
+## Citation
+Please consider citing our paper in your publications if it helps your research.
+```
+@article{li2021htd,
+  title={HTD: Heterogeneous Task Decoupling for Two-Stage Object Detection},
+  author={Li, Wuyang and Chen, Zhen and Li, Baopu and Zhang, Dingwen and Yuan, Yixuan},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={9456--9469},
+  year={2021},
+  publisher={IEEE}
+}
+
+```
+
+
 ## Contact
 If you have any problems, please feel free to contact me at wuyangli2-c@my.cityu.edu.hk
 
